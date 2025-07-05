@@ -1,0 +1,14 @@
+# Image Classifier Project 
+
+This is my submission for the Udacity Image Classifier project using TensorFlow.
+
+## Project Parts
+
+- ✅ Part 1: Jupyter Notebook for building and training the model.
+- ✅ Part 2: Command-line app `predict.py` for making predictions.
+- ✅ Label mapping from category index to flower name using `label_map.json`.
+
+## Usage
+
+```bash
+python predict.py ./test_images/orange_dahlia.jpg my_model.h5 --top_k 3 --category_names label_map.json
